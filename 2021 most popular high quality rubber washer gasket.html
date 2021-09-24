@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <style>
+        .mdc-typography {
+            -moz-osx-font-smoothing: grayscale;
+            -webkit-font-smoothing: antialiased;
+            font-family: Roboto, sans-serif;
+            /* @alternate */
+            font-family: var(--mdc-typography-font-family, Roboto, sans-serif);
+        }
+
+        #mdc-typography--headline1 {
+            -moz-osx-font-smoothing: grayscale;
+            -webkit-font-smoothing: antialiased;
+            font-family: Roboto, sans-serif;
+            /* @alternate */
+            font-family: var(--mdc-typography-headline1-font-family, var(--mdc-typography-font-family, Roboto, sans-serif));
+            font-size: 6rem;
+            /* @alternate */
+            font-size: var(--mdc-typography-headline1-font-size, 6rem);
+            line-height: 6rem;
+            /* @alternate */
+            line-height: var(--mdc-typography-headline1-line-height, 6rem);
+            font-weight: 300;
+            /* @alternate */
+            font-weight: var(--mdc-typography-headline1-font-weight, 300);
+            letter-spacing: -0.015625em;
+            /* @alternate */
+            letter-spacing: var(--mdc-typography-headline1-letter-spacing, -0.015625em);
+            text-decoration: inherit;
+            /* @alternate */
+            -webkit-text-decoration: var(--mdc-typography-headline1-text-decoration, inherit);
+            text-decoration: var(--mdc-typography-headline1-text-decoration, inherit);
+            text-transform: inherit;
+            /* @alternate */
+            text-transform: var(--mdc-typography-headline1-text-transform, inherit);
+        }
+
+        #mdc-typography--headline2 {
+            -moz-osx-font-smoothing: grayscale;
+            -webkit-font-smoothing: antialiased;
+            font-family: Roboto, sans-serif;
+            /* @alternate */
+            font-family: var(--mdc-typography-headline2-font-family, var(--mdc-typography-font-family, Roboto, sans-serif));
+            font-size: 3.75rem;
+            /* @alternate */
+            font-size: var(--mdc-typography-headline2-font-size, 3.75rem);
+            line-height: 3.75rem;
+            /* @alternate */
+            line-height: var(--mdc-typography-headline2-line-height, 3.75rem);
+            font-weight: 300;
+            /* @alternate */
+            font-weight: var(--mdc-typography-headline2-font-weight, 300);
+            letter-spacing: -0.0083333333em;
+            /* @alternate */
+            letter-spacing: var(--mdc-typography-headline2-letter-spacing, -0.0083333333em);
+            text-decoration: inherit;
+            /* @alternate */
+            -webkit-text-decoration: var(--mdc-typography-headline2-text-decoration, inherit);
+            text-decoration: var(--mdc-typography-headline2-text-decoration, inherit);
+            text-transform: inherit;
+            /* @alternate */
+            text-transform: var(--mdc-typography-headline2-text-transform, inherit);
+        }
+
+        #mdc-typography--headline3 {
+            -moz-osx-font-smoothing: grayscale;
+            -webkit-font-smoothing: antialiased;
+            font-family: Roboto, sans-serif;
+            /* @alternate */
+            font-family: var(--mdc-typography-headline3-font-family, var(--mdc-typography-font-family, Roboto, sans-serif));
+            font-size: 3rem;
+            /* @alternate */
+            font-size: var(--mdc-typography-headline3-font-size, 3rem);
+            line-height: 3.125rem;
+            /* @alternate */
+            line-height: var(--mdc-typography-headline3-line-height, 3.125rem);
+            font-weight: 400;
+            /* @alternate */
+            font-weight: var(--mdc-typography-headline3-font-weight, 400);
+            letter-spacing: normal;
+            /* @alternate */
+            letter-spacing: var(--mdc-typography-headline3-letter-spacing, normal);
+            text-decoration: inherit;
+            /* @alternate */
+            -webkit-text-decoration: var(--mdc-typography-headline3-text-decoration, inherit);
+            text-decoration: var(--mdc-typography-headline3-text-decoration, inherit);
+            text-transform: inherit;
+            /* @alternate */
+            text-transform: var(--mdc-typography-headline3-text-transform, inherit);
+        }
+
+        .mdc-typography--headline4 {
+            -moz-osx-font-smoothing: grayscale;
+            -webkit-font-smoothing: antialiased;
+            font-family: Roboto, sans-serif;
+            /* @alternate */
+            font-family: var(--mdc-typography-headline4-font-family, var(--mdc-typography-font-family, Roboto, sans-serif));
+            font-size: 2.125rem;
+            /* @alternate */
+            font-size: var(--mdc-typography-headline4-font-size, 2.125rem);
+            line-height: 2.5rem;
+            /* @alternate */
+            line-height: var(--mdc-typography-headline4-line-height, 2.5rem);
+            font-weight: 400;
+            /* @alternate */
+            font-weight: var(--mdc-typography-headline4-font-weight, 400);
+            letter-spacing: 0.0073529412em;
+            /* @alternate */
+            letter-spacing: var(--mdc-typography-headline4-letter-spacing, 0.0073529412em);
+            text-decoration: inherit;
+            /* @alternate */
+            -webkit-text-decoration: var(--mdc-typography-headline4-text-decoration, inherit);
+            text-decoration: var(--mdc-typography-headline4-text-decoration, inherit);
+            text-transform: inherit;
+            /* @alternate */
+            text-transform: var(--mdc-typography-headline4-text-transform, inherit);
+        }
+
+        .mdc-typography--headline5 {
+            -moz-osx-font-smoothing: grayscale;
+            -webkit-font-smoothing: antialiased;
+            font-family: Roboto, sans-serif;
+            /* @alternate */
+            font-family: var(--mdc-typography-headline5-font-family, var(--mdc-typography-font-family, Roboto, sans-serif));
+            font-size: 1.5rem;
+            /* @alternate */
+            font-size: var(--mdc-typography-headline5-font-size, 1.5rem);
+            line-height: 2rem;
+            /* @alternate */
+            line-height: var(--mdc-typography-headline5-line-height, 2rem);
+            font-weight: 400;
+            /* @alternate */
+            font-weight: var(--mdc-typography-headline5-font-weight, 400);
+            letter-spacing: normal;
+            /* @alternate */
+            letter-spacing: var(--mdc-typography-headline5-letter-spacing, normal);
+            text-decoration: inherit;
+            /* @alternate */
+            -webkit-text-decoration: var(--mdc-typography-headline5-text-decoration, inherit);
+            text-decoration: var(--mdc-typography-headline5-text-decoration, inherit);
+            text-transform: inherit;
+            /* @alternate */
+            text-transform: var(--mdc-typography-headline5-text-transform, inherit);
+        }
+
+        #mdc-typography--headline6 {
+            -moz-osx-font-smoothing: grayscale;
+            -webkit-font-smoothing: antialiased;
+            font-family: Roboto, sans-serif;
+            /* @alternate */
+            font-family: var(--mdc-typography-headline6-font-family, var(--mdc-typography-font-family, Roboto, sans-serif));
+            font-size: 1.25rem;
+            /* @alternate */
+            font-size: var(--mdc-typography-headline6-font-size, 1.25rem);
+            line-height: 2rem;
+            /* @alternate */
+            line-height: var(--mdc-typography-headline6-line-height, 2rem);
+            font-weight: 500;
+            /* @alternate */
+            font-weight: var(--mdc-typography-headline6-font-weight, 500);
+            letter-spacing: 0.0125em;
+            /* @alternate */
+            letter-spacing: var(--mdc-typography-headline6-letter-spacing, 0.0125em);
+            text-decoration: inherit;
+            /* @alternate */
+            -webkit-text-decoration: var(--mdc-typography-headline6-text-decoration, inherit);
+            text-decoration: var(--mdc-typography-headline6-text-decoration, inherit);
+            text-transform: inherit;
+            /* @alternate */
+            text-transform: var(--mdc-typography-headline6-text-transform, inherit);
+        }
+
+        .mdc-typography--subtitle1 {
+            -moz-osx-font-smoothing: grayscale;
+            -webkit-font-smoothing: antialiased;
+            font-family: Roboto, sans-serif;
+            /* @alternate */
+            font-family: var(--mdc-typography-subtitle1-font-family, var(--mdc-typography-font-family, Roboto, sans-serif));
+            font-size: 1rem;
+            /* @alternate */
+            font-size: var(--mdc-typography-subtitle1-font-size, 1rem);
+            line-height: 1.75rem;
+            /* @alternate */
+            line-height: var(--mdc-typography-subtitle1-line-height, 1.75rem);
+            font-weight: 400;
+            /* @alternate */
+            font-weight: var(--mdc-typography-subtitle1-font-weight, 400);
+            letter-spacing: 0.009375em;
+            /* @alternate */
+            letter-spacing: var(--mdc-typography-subtitle1-letter-spacing, 0.009375em);
+            text-decoration: inherit;
+            /* @alternate */
+            -webkit-text-decoration: var(--mdc-typography-subtitle1-text-decoration, inherit);
+            text-decoration: var(--mdc-typography-subtitle1-text-decoration, inherit);
+            text-transform: inherit;
+            /* @alternate */
+            text-transform: var(--mdc-typography-subtitle1-text-transform, inherit);
+        }
+
+        .mdc-typography--subtitle2 {
+            -moz-osx-font-smoothing: grayscale;
+            -webkit-font-smoothing: antialiased;
+            font-family: Roboto, sans-serif;
+            /* @alternate */
+            font-family: var(--mdc-typography-subtitle2-font-family, var(--mdc-typography-font-family, Roboto, sans-serif));
+            font-size: 0.875rem;
+            /* @alternate */
+            font-size: var(--mdc-typography-subtitle2-font-size, 0.875rem);
+            line-height: 1.375rem;
+            /* @alternate */
+            line-height: var(--mdc-typography-subtitle2-line-height, 1.375rem);
+            font-weight: 500;
+            /* @alternate */
+            font-weight: var(--mdc-typography-subtitle2-font-weight, 500);
+            letter-spacing: 0.0071428571em;
+            /* @alternate */
+            letter-spacing: var(--mdc-typography-subtitle2-letter-spacing, 0.0071428571em);
+            text-decoration: inherit;
+            /* @alternate */
+            -webkit-text-decoration: var(--mdc-typography-subtitle2-text-decoration, inherit);
+            text-decoration: var(--mdc-typography-subtitle2-text-decoration, inherit);
+            text-transform: inherit;
+            /* @alternate */
+            text-transform: var(--mdc-typography-subtitle2-text-transform, inherit);
+        }
+
+        .mdc-typography--body1 {
+            -moz-osx-font-smoothing: grayscale;
+            -webkit-font-smoothing: antialiased;
+            font-family: Roboto, sans-serif;
+            /* @alternate */
+            font-family: var(--mdc-typography-body1-font-family, var(--mdc-typography-font-family, Roboto, sans-serif));
+            font-size: 1rem;
+            /* @alternate */
+            font-size: var(--mdc-typography-body1-font-size, 1rem);
+            line-height: 1.5rem;
+            /* @alternate */
+            line-height: var(--mdc-typography-body1-line-height, 1.5rem);
+            font-weight: 400;
+            /* @alternate */
+            font-weight: var(--mdc-typography-body1-font-weight, 400);
+            letter-spacing: 0.03125em;
+            /* @alternate */
+            letter-spacing: var(--mdc-typography-body1-letter-spacing, 0.03125em);
+            text-decoration: inherit;
+            /* @alternate */
+            -webkit-text-decoration: var(--mdc-typography-body1-text-decoration, inherit);
+            text-decoration: var(--mdc-typography-body1-text-decoration, inherit);
+            text-transform: inherit;
+            /* @alternate */
+            text-transform: var(--mdc-typography-body1-text-transform, inherit);
+        }
+
+        .mdc-typography--body2 {
+            -moz-osx-font-smoothing: grayscale;
+            -webkit-font-smoothing: antialiased;
+            font-family: Roboto, sans-serif;
+            /* @alternate */
+            font-family: var(--mdc-typography-body2-font-family, var(--mdc-typography-font-family, Roboto, sans-serif));
+            font-size: 0.875rem;
+            /* @alternate */
+            font-size: var(--mdc-typography-body2-font-size, 0.875rem);
+            line-height: 1.25rem;
+            /* @alternate */
+            line-height: var(--mdc-typography-body2-line-height, 1.25rem);
+            font-weight: 400;
+            /* @alternate */
+            font-weight: var(--mdc-typography-body2-font-weight, 400);
+            letter-spacing: 0.0178571429em;
+            /* @alternate */
+            letter-spacing: var(--mdc-typography-body2-letter-spacing, 0.0178571429em);
+            text-decoration: inherit;
+            /* @alternate */
+            -webkit-text-decoration: var(--mdc-typography-body2-text-decoration, inherit);
+            text-decoration: var(--mdc-typography-body2-text-decoration, inherit);
+            text-transform: inherit;
+            /* @alternate */
+            text-transform: var(--mdc-typography-body2-text-transform, inherit);
+        }
+
+        .mdc-typography--caption {
+            -moz-osx-font-smoothing: grayscale;
+            -webkit-font-smoothing: antialiased;
+            font-family: Roboto, sans-serif;
+            /* @alternate */
+            font-family: var(--mdc-typography-caption-font-family, var(--mdc-typography-font-family, Roboto, sans-serif));
+            font-size: 0.75rem;
+            /* @alternate */
+            font-size: var(--mdc-typography-caption-font-size, 0.75rem);
+            line-height: 1.25rem;
+            /* @alternate */
+            line-height: var(--mdc-typography-caption-line-height, 1.25rem);
+            font-weight: 400;
+            /* @alternate */
+            font-weight: var(--mdc-typography-caption-font-weight, 400);
+            letter-spacing: 0.0333333333em;
+            /* @alternate */
+            letter-spacing: var(--mdc-typography-caption-letter-spacing, 0.0333333333em);
+            text-decoration: inherit;
+            /* @alternate */
+            -webkit-text-decoration: var(--mdc-typography-caption-text-decoration, inherit);
+            text-decoration: var(--mdc-typography-caption-text-decoration, inherit);
+            text-transform: inherit;
+            /* @alternate */
+            text-transform: var(--mdc-typography-caption-text-transform, inherit);
+        }
+
+        .mdc-typography--button {
+            -moz-osx-font-smoothing: grayscale;
+            -webkit-font-smoothing: antialiased;
+            font-family: Roboto, sans-serif;
+            /* @alternate */
+            font-family: var(--mdc-typography-button-font-family, var(--mdc-typography-font-family, Roboto, sans-serif));
+            font-size: 0.875rem;
+            /* @alternate */
+            font-size: var(--mdc-typography-button-font-size, 0.875rem);
+            line-height: 2.25rem;
+            /* @alternate */
+            line-height: var(--mdc-typography-button-line-height, 2.25rem);
+            font-weight: 500;
+            /* @alternate */
+            font-weight: var(--mdc-typography-button-font-weight, 500);
+            letter-spacing: 0.0892857143em;
+            /* @alternate */
+            letter-spacing: var(--mdc-typography-button-letter-spacing, 0.0892857143em);
+            text-decoration: none;
+            /* @alternate */
+            -webkit-text-decoration: var(--mdc-typography-button-text-decoration, none);
+            text-decoration: var(--mdc-typography-button-text-decoration, none);
+            text-transform: uppercase;
+            /* @alternate */
+            text-transform: var(--mdc-typography-button-text-transform, uppercase);
+        }
+
+        .mdc-typography--overline {
+            -moz-osx-font-smoothing: grayscale;
+            -webkit-font-smoothing: antialiased;
+            font-family: Roboto, sans-serif;
+            /* @alternate */
+            font-family: var(--mdc-typography-overline-font-family, var(--mdc-typography-font-family, Roboto, sans-serif));
+            font-size: 0.75rem;
+            /* @alternate */
+            font-size: var(--mdc-typography-overline-font-size, 0.75rem);
+            line-height: 2rem;
+            /* @alternate */
+            line-height: var(--mdc-typography-overline-line-height, 2rem);
+            font-weight: 500;
+            /* @alternate */
+            font-weight: var(--mdc-typography-overline-font-weight, 500);
+            letter-spacing: 0.1666666667em;
+            /* @alternate */
+            letter-spacing: var(--mdc-typography-overline-letter-spacing, 0.1666666667em);
+            text-decoration: none;
+            /* @alternate */
+            -webkit-text-decoration: var(--mdc-typography-overline-text-decoration, none);
+            text-decoration: var(--mdc-typography-overline-text-decoration, none);
+            text-transform: uppercase;
+            /* @alternate */
+            text-transform: var(--mdc-typography-overline-text-transform, uppercase);
+        }
+
+        /* h1 {
+            -moz-osx-font-smoothing: grayscale;
+            -webkit-font-smoothing: antialiased;
+            font-family: Roboto, sans-serif;
+            font-family: var(--mdc-typography-headline1-font-family, var(--mdc-typography-font-family, Roboto, sans-serif));
+            font-size: 2.5rem;
+            font-size: var(--mdc-typography-headline1-font-size, 2.5rem);
+            line-height: 1.2;
+            line-height: var(--mdc-typography-headline1-line-height, 1.2);
+            font-weight: 400;
+            font-weight: var(--mdc-typography-headline1-font-weight, 400);
+            letter-spacing: 0;
+            letter-spacing: var(--mdc-typography-headline1-letter-spacing, 0);
+            text-decoration: inherit;
+            -webkit-text-decoration: var(--mdc-typography-headline1-text-decoration, inherit);
+            text-decoration: var(--mdc-typography-headline1-text-decoration, inherit);
+            text-transform: inherit;
+            text-transform: var(--mdc-typography-headline1-text-transform, inherit);
+            color: #212121;
+            margin: 0
+        }
+
+        @media screen and (min-width: 521px) {
+            h1 {
+                font-size: 3.125rem
+            }
+        }
+
+        @media screen and (min-width: 921px) {
+            h1 {
+                font-size: 3.75rem
+            }
+        }
+
+        h2 {
+            -moz-osx-font-smoothing: grayscale;
+            -webkit-font-smoothing: antialiased;
+            font-family: Roboto, sans-serif;
+            font-family: var(--mdc-typography-headline2-font-family, var(--mdc-typography-font-family, Roboto, sans-serif));
+            font-size: 1.5rem;
+            font-size: var(--mdc-typography-headline2-font-size, 1.5rem);
+            line-height: 1.2;
+            line-height: var(--mdc-typography-headline2-line-height, 1.2);
+            font-weight: 400;
+            font-weight: var(--mdc-typography-headline2-font-weight, 400);
+            letter-spacing: -.0083333333em;
+            letter-spacing: var(--mdc-typography-headline2-letter-spacing, -.0083333333em);
+            text-decoration: inherit;
+            -webkit-text-decoration: var(--mdc-typography-headline2-text-decoration, inherit);
+            text-decoration: var(--mdc-typography-headline2-text-decoration, inherit);
+            text-transform: inherit;
+            text-transform: var(--mdc-typography-headline2-text-transform, inherit);
+            color: #212121;
+            margin: 0
+        }
+
+        @media screen and (min-width: 521px) {
+            h2 {
+                font-size: 1.75rem
+            }
+        }
+
+        @media screen and (min-width: 921px) {
+            h2 {
+                font-size: 2rem
+            }
+        } */
+
+        .ion-text-center {
+            text-align: center !important;
+        }
+    </style>
+
+    <h1 class="ion-text-center" id="mdc-typography--headline3">Why splendid</h1>
+
+    <h2 id="mdc-typography--headline6">We can</h2>
+
+    <p><span
+            style="line-height: normal; color: #000000; font-family: Arial; font-size: 14px; font-style: normal; float: none; background-color: #ffffff; display: inline !important;">1.
+            Over 20 years experience in rubber products and certified 2002-edition &nbsp;IATF 16949 2016. Also got
+            the&nbsp;&nbsp;KTW, DVGW, WRAS certification for compound E7001Z59 in 2008.</span><br /><br /><span
+            style="line-height: normal; color: #000000; font-family: Arial; font-size: 14px; font-style: normal; float: none; background-color: #ffffff; display: inline !important;">2.
+            A wide range of materials can be choosed ,such as NBR,&nbsp;HNBR,FKM/FPM,SILICONE,EPDM,Neoprene,Aflas
+            etc.&nbsp;</span></p>
+    <p><span
+            style="line-height: normal; color: #000000; font-family: Arial; font-size: 14px; font-style: normal; float: none; background-color: #ffffff; display: inline !important;">&nbsp;</span><br /><span
+            style="line-height: normal; color: #000000; font-family: Arial; font-size: 14px; font-style: normal; float: none; background-color: #ffffff; display: inline !important;">3.
+            Special material requirement available: High (300C +&nbsp;) or low (&nbsp;-70C )&nbsp;temperature
+            resistance, ozone resistance ,non-conductive, peroxide cured, etc&nbsp;</span><br /><br /><span
+            style="line-height: normal; color: #000000; font-family: Arial; font-size: 14px; font-style: normal; float: none; background-color: #ffffff; display: inline !important;">4.
+            Thousands of o&nbsp;ring sizes can be supplied.For most AS568 Standard Size,we have the mold.Our molds are
+            all made from superior stainless steel.Can build the molds by ourselves.</span><br /><br /><span
+            style="line-height: normal; color: #000000; font-family: Arial; font-size: 14px; font-style: normal; float: none; background-color: #ffffff; display: inline !important;">5.&nbsp;&nbsp;OEM/ODM
+            Service are available.Can design and produce variours Non-standard Rubber Parts according to your
+            requirement.</span><br /><br /><span
+            style="line-height: normal; color: #000000; font-family: Arial; font-size: 14px; font-style: normal; float: none; background-color: #ffffff; display: inline !important;">6.
+            Supply rubber parts to end user like Eaton Corporation, General Motors, Ford Motor Company, BMW, etc and
+            serve the machine equipment, medical, automotive, water pool and spa, and industrial pump markets for many
+            years.</span></p>
+    <p><span
+            style="line-height: normal; color: #000000; font-family: Arial; font-size: 14px; font-style: normal; float: none; background-color: #ffffff; display: inline !important;">&nbsp;</span>
+    </p>
+    <p><span
+            style="line-height: normal; color: #000000; font-family: Arial; font-size: 14px; font-style: normal; float: none; background-color: #ffffff; display: inline !important;">7.
+            we have 8557+ sets molds for any customized products</span></p>
+    <p><span
+            style="line-height: normal; color: #000000; font-family: Arial; font-size: 12px; font-style: normal; font-weight: normal; float: none; display: inline !important; background-color: #ffffff;">&nbsp;</span>
+    </p>
+    <p
+        style="margin: 0px; padding: 0px; color: #000000; font-family: Arial; font-size: 12px; font-style: normal; font-weight: normal; line-height: normal; background-color: #f5f5f5;">
+        <span style="line-height: 21px; font-size: 14px;">We can offer OEM or according to our customers' designed
+            drawing.</span>
+    </p>
+    <p
+        style="margin: 0px; padding: 0px; color: #000000; font-family: Arial; font-size: 12px; font-style: normal; font-weight: normal; line-height: normal; background-color: #f5f5f5;">
+        <span style="line-height: 21px; font-size: 14px;">We can provide PPAP documents/PFMEA/CONTROL PLAN/ISIR
+            &nbsp;for &nbsp;our customers' special need.</span>
+    </p>
+    <p
+        style="margin: 0px; padding: 0px; color: #000000; font-family: Arial; font-size: 12px; font-style: normal; font-weight: normal; line-height: normal; background-color: #f5f5f5;">
+        <span style="line-height: 21px; font-size: 14px;">We can reply all of your inquiry at once.</span>
+    </p>
+    <p
+        style="margin: 0px; padding: 0px; color: #000000; font-family: Arial; font-size: 12px; font-style: normal; font-weight: normal; line-height: normal; background-color: #f5f5f5;">
+        <span style="line-height: 21px; font-size: 14px;">We can solve your question in time.</span>
+    </p>
+    <p
+        style="margin: 0px; padding: 0px; color: #000000; font-family: Arial; font-size: 12px; font-style: normal; font-weight: normal; line-height: normal; background-color: #f5f5f5;">
+        <span style="line-height: 21px; font-size: 14px;">Welcome to visit our factory to better understanding our
+            &nbsp;production capacity.</span>
+    </p>
+    <p
+        style="margin: 0px; padding: 0px; font-size: 12px; font-style: normal; font-weight: normal; border: 0px; line-height: 15.6px; font-family: Arial, Helvetica; vertical-align: baseline; color: #333333; background-color: #ffffff;">
+        <span style="font-size: 14px;"><span
+                style="line-height: 18px; margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-family: arial, helvetica, sans-serif; vertical-align: baseline;"><span
+                    style="line-height: 24px; margin: 0px; padding: 0px; border: 0px; font-style: inherit; vertical-align: baseline;">we
+                    pack our goods&nbsp;in polybag and cartons box. Also available for special package such as paper
+                    tube or blister box package.&nbsp;</span></span></span><span
+            style="line-height: 18px; margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-size: 14px; font-family: arial, helvetica, sans-serif; vertical-align: baseline;"><span
+                style="line-height: 24px; margin: 0px; padding: 0px; border: 0px; font-style: inherit; vertical-align: baseline;"><br />we
+                can produce by customers' samples or technical drawings. We can build the moulds&nbsp;and
+                fixtures.<br />we can supply the samples if we have ready parts in stock, but the customers have to pay
+                th freight cost.</span></span>
+    </p>
+    <p
+        style="margin: 0px; padding: 0px; font-size: 12px; font-style: normal; font-weight: normal; border: 0px; line-height: 15.6px; font-family: Arial, Helvetica; vertical-align: baseline; color: #333333; background-color: #ffffff;">
+        <span
+            style="line-height: 18px; margin: 0px; padding: 0px; border: 0px; font-style: inherit; font-size: 14px; font-family: arial, helvetica, sans-serif; vertical-align: baseline;"><span
+                style="line-height: 24px; margin: 0px; padding: 0px; border: 0px; font-style: inherit; vertical-align: baseline;">we
+                make a 100% inspection on our goods before shipment.</span></span>
+    </p>
+</body>
+
+</html>
