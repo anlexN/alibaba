@@ -1394,6 +1394,10 @@
         color: rgb(33, 33, 33) !important;
     }
 
+    .margin-bottom-0 {
+        margin-bottom: 0;
+    }
+
     .margin-vertical-0 {
         margin-top: 0;
         margin-bottom: 0;
@@ -1419,6 +1423,46 @@
     .max-height-218 {
         max-height: 218px;
     }
+
+    .max-width-768 {
+        max-width: 768px;
+    }
+
+    .display-block {
+        display: block;
+    }
+
+    .margin-horizontal-auto {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .padding-horizontal-16 {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .width-100-percent {
+        width: 100%;
+    }
+
+    .mdl-color--blue-A700 {
+        background-color: rgb(41, 98, 255) !important;
+    }
+
+    .mdl-color-text--white {
+        color: rgb(255, 255, 255) !important;
+    }
+
+    .full-bleed-image-module {
+        padding: 48px 28px;
+    }
+
+    @media (min-width: 600px) {
+        .full-bleed-image-module {
+            padding: 60px 40px;
+        }
+    }
 </style>
 
 <h1 class="ion-text-center" id="mdc-typography--headline3">Why splendid</h1>
@@ -1427,16 +1471,16 @@
     Full involvement, permanent dedication, persistent pursuit for excellence.
 </p>
 
-<!-- <h2 id="mdc-typography--headline6">We can</h2> -->
-
 <div class="mdc-layout-grid">
     <div class="mdc-layout-grid__inner">
-        <div class="mdc-layout-grid__cell--span-1-desktop"></div>
+        <div class="mdc-layout-grid__cell--span-2-desktop"></div>
         <img
                 class="
             border-radius-8
-            mdc-layout-grid__cell mdc-layout-grid__cell--span-4-desktop
-            max-width-100-percent
+            mdc-layout-grid__cell
+            mdc-layout-grid__cell--span-3-desktop
+            mdc-layout-grid__cell--align-middle
+            width-100-percent
              max-height-218
              height-100-percent
           "
@@ -1446,13 +1490,17 @@
         />
         <div class="mdc-layout-grid__cell--span-1-desktop"></div>
         <div
-                class="mdc-layout-grid__cell mdc-layout-grid__cell--span-5-desktop"
+                class="
+                mdc-layout-grid__cell
+                mdc-layout-grid__cell--span-4-desktop
+                mdc-layout-grid__cell--align-middle
+"
         >
-            <h3 class="" id="mdc-typography--headline4">
+            <h3 class="margin-vertical-0" id="mdc-typography--headline4">
                 Our most ambitious decades yet
             </h3>
 
-            <p class="ion-text-center mdc-typography--body1 ion-text-left">
+            <p class="mdc-typography--body1 ion-text-left margin-bottom-0">
                 Over the past 20 years Splendid focus on the research, production of
                 rubber products and has always baseline adhering to 'Full
                 participation in quality, Constantly exceed customer expectation'
@@ -1468,28 +1516,28 @@
 
 <div class="mdc-layout-grid">
     <div class="mdc-layout-grid__inner">
-        <div class="mdc-layout-grid__cell--span-1-desktop"></div>
-        <div class="mdc-layout-grid__cell--span-6-desktop ion-text-center">
+        <div class="mdc-layout-grid__cell--span-2-desktop"></div>
+        <div class="mdc-layout-grid__cell--span-4-phone mdc-layout-grid__cell--span-4-desktop mdc-layout-grid__cell--align-middle ion-text-center">
             <div class="mdc-layout-grid__inner">
-                <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-6-desktop">
+                <div class="mdc-layout-grid__cell--span-2-phone mdc-layout-grid__cell--span-4-tablet mdc-layout-grid__cell--span-6-desktop mdc-layout-grid__cell--align-middle">
                     <p class="mdl-color-text--green-500 margin-vertical-0" id="mdc-typography--headline2">1998</p>
                     <p class="mdc-typography--subtitle1 mdl-color-text--grey-900">found</p>
                 </div>
-                <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-6-desktop">
+                <div class="mdc-layout-grid__cell--span-2-phone mdc-layout-grid__cell--span-4-tablet mdc-layout-grid__cell--span-6-desktop mdc-layout-grid__cell--align-middle">
                     <p class="mdl-color-text--green-500 margin-vertical-0" id="mdc-typography--headline2">
                         <span class="font-size-24"> > </span>
                         4.3
                     </p>
                     <p class="mdc-typography--subtitle1 mdl-color-text--grey-900">million square meters</p>
                 </div>
-                <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-6-desktop">
+                <div class="mdc-layout-grid__cell--span-2-phone mdc-layout-grid__cell--span-4-tablet mdc-layout-grid__cell--span-6-desktop mdc-layout-grid__cell--align-middle">
                     <p class="mdl-color-text--green-500 margin-vertical-0" id="mdc-typography--headline2">
                         <span class="font-size-24"> ⩽ </span>
                         0.4%
                     </p>
                     <p class="mdc-typography--subtitle1 mdl-color-text--grey-900">ustomer return loss rate</p>
                 </div>
-                <div class="mdc-layout-grid__cell mdc-layout-grid__cell--span-6-desktop">
+                <div class="mdc-layout-grid__cell--span-2-phone mdc-layout-grid__cell--span-4-tablet mdc-layout-grid__cell--span-6-desktop mdc-layout-grid__cell--align-middle">
                     <p class="mdl-color-text--green-500 margin-vertical-0" id="mdc-typography--headline2">100%</p>
                     <p class="mdc-typography--subtitle1 mdl-color-text--grey-900">recycling and reuse of waste</p>
                 </div>
@@ -1499,12 +1547,16 @@
         </div>
         <div class="mdc-layout-grid__cell--span-1-desktop"></div>
         <video controls
-               class="mdc-layout-grid__cell mdc-layout-grid__cell--span-4-desktop max-width-100-percent border-radius-8 max-height-218 height-100-percent">
-
-            <source src="/flower.webm"
-                    type="video/webm">
-
-            <source src="/flower.mp4"
+               poster="https://sc04.alicdn.com/kf/HTB1Xjn4OFXXXXahXVXXq6xXFXXX9/200327975/HTB1Xjn4OFXXXXahXVXXq6xXFXXX9.jpg"
+               class="
+               mdc-layout-grid__cell
+               mdc-layout-grid__cell--span-3-desktop
+               mdc-layout-grid__cell--align-middle
+               width-100-percent
+               border-radius-8
+               max-height-218
+               height-100-percent">
+            <source src="https://cloud.video.alibaba.com/play/u/2153292369/p/1/e/6/t/1/d/hd/290159332968.mp4"
                     type="video/mp4">
 
             Sorry, your browser doesn't support embedded videos.
@@ -1512,347 +1564,114 @@
     </div>
 </div>
 
-<div></div>
+<div class="mdc-layout-grid ion-text-center">
+    <div class="mdc-layout-grid__inner">
+        <div class="mdc-layout-grid__cell">
+            <p class="mdl-color-text--green-500 margin-vertical-0" id="mdc-typography--headline2">76</p>
+            <p class="mdc-typography--subtitle1 mdl-color-text--grey-900">Oil pressing machines</p>
+        </div>
+        <div class="mdc-layout-grid__cell">
+            <p class="mdl-color-text--green-500 margin-vertical-0" id="mdc-typography--headline2">13</p>
+            <p class="mdc-typography--subtitle1 mdl-color-text--grey-900">stock cutters</p>
+        </div>
+        <div class="mdc-layout-grid__cell">
+            <p class="mdl-color-text--green-500 margin-vertical-0" id="mdc-typography--headline2">13</p>
+            <p class="mdc-typography--subtitle1 mdl-color-text--grey-900">oven</p>
+        </div>
+        <div class="mdc-layout-grid__cell">
+            <p class="mdl-color-text--green-500 margin-vertical-0" id="mdc-typography--headline2">8</p>
+            <p class="mdc-typography--subtitle1 mdl-color-text--grey-900">down the flash machines</p>
+        </div>
+        <div class="mdc-layout-grid__cell">
+            <p class="mdl-color-text--green-500 margin-vertical-0" id="mdc-typography--headline2">7</p>
+            <p class="mdc-typography--subtitle1 mdl-color-text--grey-900">open mills</p>
+        </div>
+        <div class="mdc-layout-grid__cell">
+            <p class="mdl-color-text--green-500 margin-vertical-0" id="mdc-typography--headline2">5</p>
+            <p class="mdc-typography--subtitle1 mdl-color-text--grey-900">refrigerators</p>
+        </div>
+        <div class="mdc-layout-grid__cell">
+            <p class="mdl-color-text--green-500 margin-vertical-0" id="mdc-typography--headline2">4</p>
+            <p class="mdc-typography--subtitle1 mdl-color-text--grey-900">cnc</p>
+        </div>
+        <div class="mdc-layout-grid__cell">
+            <p class="mdl-color-text--green-500 margin-vertical-0" id="mdc-typography--headline2">4</p>
+            <p class="mdc-typography--subtitle1 mdl-color-text--grey-900">all inspection machines</p>
+        </div>
+        <div class="mdc-layout-grid__cell">
+            <p class="mdl-color-text--green-500 margin-vertical-0" id="mdc-typography--headline2">3</p>
+            <p class="mdc-typography--subtitle1 mdl-color-text--grey-900">internal mixers</p>
+        </div>
+    </div>
+</div>
 
-<p>
-      <span
-              style="
-          line-height: normal;
-          color: #000000;
-          font-family: Arial;
-          font-size: 14px;
-          font-style: normal;
-          float: none;
-          background-color: #ffffff;
-          display: inline !important;
-        "
-      >1. Over 20 years experience in rubber products and certified
-        2002-edition &nbsp;IATF 16949 2016. Also got the&nbsp;&nbsp;KTW, DVGW,
-        WRAS certification for compound E7001Z59 in 2008.</span
-      ><br/><br/><span
-        style="
-          line-height: normal;
-          color: #000000;
-          font-family: Arial;
-          font-size: 14px;
-          font-style: normal;
-          float: none;
-          background-color: #ffffff;
-          display: inline !important;
-        "
->2. A wide range of materials can be choosed ,such as
-        NBR,&nbsp;HNBR,FKM/FPM,SILICONE,EPDM,Neoprene,Aflas etc.&nbsp;</span
->
-</p>
-<p>
-      <span
-              style="
-          line-height: normal;
-          color: #000000;
-          font-family: Arial;
-          font-size: 14px;
-          font-style: normal;
-          float: none;
-          background-color: #ffffff;
-          display: inline !important;
-        "
-      >&nbsp;</span
-      ><br/><span
-        style="
-          line-height: normal;
-          color: #000000;
-          font-family: Arial;
-          font-size: 14px;
-          font-style: normal;
-          float: none;
-          background-color: #ffffff;
-          display: inline !important;
-        "
->3. Special material requirement available: High (300C +&nbsp;) or low
-        (&nbsp;-70C )&nbsp;temperature resistance, ozone resistance
-        ,non-conductive, peroxide cured, etc&nbsp;</span
-><br/><br/><span
-        style="
-          line-height: normal;
-          color: #000000;
-          font-family: Arial;
-          font-size: 14px;
-          font-style: normal;
-          float: none;
-          background-color: #ffffff;
-          display: inline !important;
-        "
->4. Thousands of o&nbsp;ring sizes can be supplied.For most AS568
-        Standard Size,we have the mold.Our molds are all made from superior
-        stainless steel.Can build the molds by ourselves.</span
-><br/><br/><span
-        style="
-          line-height: normal;
-          color: #000000;
-          font-family: Arial;
-          font-size: 14px;
-          font-style: normal;
-          float: none;
-          background-color: #ffffff;
-          display: inline !important;
-        "
->5.&nbsp;&nbsp;OEM/ODM Service are available.Can design and produce
-        variours Non-standard Rubber Parts according to your requirement.</span
-><br/><br/><span
-        style="
-          line-height: normal;
-          color: #000000;
-          font-family: Arial;
-          font-size: 14px;
-          font-style: normal;
-          float: none;
-          background-color: #ffffff;
-          display: inline !important;
-        "
->6. Supply rubber parts to end user like Eaton Corporation, General
-        Motors, Ford Motor Company, BMW, etc and serve the machine equipment,
-        medical, automotive, water pool and spa, and industrial pump markets for
-        many years.</span
->
-</p>
-<p>
-      <span
-              style="
-          line-height: normal;
-          color: #000000;
-          font-family: Arial;
-          font-size: 14px;
-          font-style: normal;
-          float: none;
-          background-color: #ffffff;
-          display: inline !important;
-        "
-      >&nbsp;</span
-      >
-</p>
-<p>
-      <span
-              style="
-          line-height: normal;
-          color: #000000;
-          font-family: Arial;
-          font-size: 14px;
-          font-style: normal;
-          float: none;
-          background-color: #ffffff;
-          display: inline !important;
-        "
-      >7. we have 8557+ sets molds for any customized products</span
-      >
-</p>
-<p>
-      <span
-              style="
-          line-height: normal;
-          color: #000000;
-          font-family: Arial;
-          font-size: 12px;
-          font-style: normal;
-          font-weight: normal;
-          float: none;
-          display: inline !important;
-          background-color: #ffffff;
-        "
-      >&nbsp;</span
-      >
-</p>
-<p
-        style="
-        margin: 0px;
-        padding: 0px;
-        color: #000000;
-        font-family: Arial;
-        font-size: 12px;
-        font-style: normal;
-        font-weight: normal;
-        line-height: normal;
-        background-color: #f5f5f5;
-      "
->
-      <span style="line-height: 21px; font-size: 14px"
-      >We can offer OEM or according to our customers' designed drawing.</span
-      >
-</p>
-<p
-        style="
-        margin: 0px;
-        padding: 0px;
-        color: #000000;
-        font-family: Arial;
-        font-size: 12px;
-        font-style: normal;
-        font-weight: normal;
-        line-height: normal;
-        background-color: #f5f5f5;
-      "
->
-      <span style="line-height: 21px; font-size: 14px"
-      >We can provide PPAP documents/PFMEA/CONTROL PLAN/ISIR &nbsp;for
-        &nbsp;our customers' special need.</span
-      >
-</p>
-<p
-        style="
-        margin: 0px;
-        padding: 0px;
-        color: #000000;
-        font-family: Arial;
-        font-size: 12px;
-        font-style: normal;
-        font-weight: normal;
-        line-height: normal;
-        background-color: #f5f5f5;
-      "
->
-      <span style="line-height: 21px; font-size: 14px"
-      >We can reply all of your inquiry at once.</span
-      >
-</p>
-<p
-        style="
-        margin: 0px;
-        padding: 0px;
-        color: #000000;
-        font-family: Arial;
-        font-size: 12px;
-        font-style: normal;
-        font-weight: normal;
-        line-height: normal;
-        background-color: #f5f5f5;
-      "
->
-      <span style="line-height: 21px; font-size: 14px"
-      >We can solve your question in time.</span
-      >
-</p>
-<p
-        style="
-        margin: 0px;
-        padding: 0px;
-        color: #000000;
-        font-family: Arial;
-        font-size: 12px;
-        font-style: normal;
-        font-weight: normal;
-        line-height: normal;
-        background-color: #f5f5f5;
-      "
->
-      <span style="line-height: 21px; font-size: 14px"
-      >Welcome to visit our factory to better understanding our
-        &nbsp;production capacity.</span
-      >
-</p>
-<p
-        style="
-        margin: 0px;
-        padding: 0px;
-        font-size: 12px;
-        font-style: normal;
-        font-weight: normal;
-        border: 0px;
-        line-height: 15.6px;
-        font-family: Arial, Helvetica;
-        vertical-align: baseline;
-        color: #333333;
-        background-color: #ffffff;
-      "
->
-      <span style="font-size: 14px"
-      ><span
-              style="
-            line-height: 18px;
-            margin: 0px;
-            padding: 0px;
-            border: 0px;
-            font-style: inherit;
-            font-family: arial, helvetica, sans-serif;
-            vertical-align: baseline;
+<div class="mdc-layout-grid">
+    <div class="mdc-layout-grid__inner">
+        <div class="mdc-layout-grid__cell--span-2-desktop"></div>
+        <img
+                class="
+            border-radius-8
+            mdc-layout-grid__cell
+            mdc-layout-grid__cell--span-3-desktop
+            mdc-layout-grid__cell--align-middle
+            width-100-percent
+             max-height-218
+             height-100-percent
           "
-      ><span
-              style="
-              line-height: 24px;
-              margin: 0px;
-              padding: 0px;
-              border: 0px;
-              font-style: inherit;
-              vertical-align: baseline;
-            "
-      >we pack our goods&nbsp;in polybag and cartons box. Also available
-            for special package such as paper tube or blister box
-            package.&nbsp;</span
-      ></span
-      ></span
-      ><span
-        style="
-          line-height: 18px;
-          margin: 0px;
-          padding: 0px;
-          border: 0px;
-          font-style: inherit;
-          font-size: 14px;
-          font-family: arial, helvetica, sans-serif;
-          vertical-align: baseline;
-        "
-><span
-        style="
-            line-height: 24px;
-            margin: 0px;
-            padding: 0px;
-            border: 0px;
-            font-style: inherit;
-            vertical-align: baseline;
+                loading="lazy"
+                src="https://sc04.alicdn.com/kf/HTB1vZrWOFXXXXcvaXXX760XFXXXo/200327975/HTB1vZrWOFXXXXcvaXXX760XFXXXo.png"
+                alt="Our most ambitious decade yet"
+        />
+        <div class="mdc-layout-grid__cell--span-1-desktop"></div>
+        <div
+                class="
+                mdc-layout-grid__cell
+                mdc-layout-grid__cell--span-4-desktop
+                mdc-layout-grid__cell--align-middle"
+        >
+            <h3 class="" id="mdc-typography--headline4">
+                Our full range of services
+            </h3>
+
+            <p class="mdc-typography--body1 ion-text-left margin-bottom-0">
+                we supply rubber parts to end user like eaton corporation, general motors, ford motor, bmw, tesla etc;
+                provide PPAP documents/PFMEA/CONTROL PLAN/ISIR &nbsp;for our customers' special need;
+                produce by customers' samples or technical drawings;
+                make 100% inspection on our goods before shipment;
+                have 8557+ sets molds for any customized products...
+                Welcome to visit our factory to better understanding our&nbsp;production capacity.
+            </p>
+        </div>
+    </div>
+</div>
+
+<img
+        class="
+            border-radius-8
+            max-width-768
+            display-block
+            margin-horizontal-auto
+            padding-horizontal-16
+            width-100-percent
           "
-><br/>we can produce by customers' samples or technical drawings. We
-          can build the moulds&nbsp;and fixtures.<br/>we can supply the samples
-          if we have ready parts in stock, but the customers have to pay th
-          freight cost.</span
-></span
->
-</p>
-<p
-        style="
-        margin: 0px;
-        padding: 0px;
-        font-size: 12px;
-        font-style: normal;
-        font-weight: normal;
-        border: 0px;
-        line-height: 15.6px;
-        font-family: Arial, Helvetica;
-        vertical-align: baseline;
-        color: #333333;
-        background-color: #ffffff;
-      "
->
-      <span
-              style="
-          line-height: 18px;
-          margin: 0px;
-          padding: 0px;
-          border: 0px;
-          font-style: inherit;
-          font-size: 14px;
-          font-family: arial, helvetica, sans-serif;
-          vertical-align: baseline;
-        "
-      ><span
-              style="
-            line-height: 24px;
-            margin: 0px;
-            padding: 0px;
-            border: 0px;
-            font-style: inherit;
-            vertical-align: baseline;
-          "
-      >we make a 100% inspection on our goods before shipment.</span
-      ></span
-      >
-</p>
+        loading="lazy"
+        src="https://sc04.alicdn.com/kf/H02710f871be54354b39889269642f81c6/200327975/H02710f871be54354b39889269642f81c6.jpg"
+        alt="splendid certificate"
+/>
+
+<div class="mdl-color--blue-A700 mdl-color-text--white full-bleed-image-module">
+        <div class="ion-text-center max-width-768 margin-horizontal-auto">
+            <h3 class="margin-vertical-0" id="mdc-typography--headline4">
+                Welcome to visit our factory
+            </h3>
+
+            <p class="mdc-typography--headline5 margin-bottom-0">
+                Looking forward to the 21st century, Splendid promises that we will cultivate top talnets and produce
+                highest quality products to meet our customer's requirements by advanced equipment. Splendid will
+                surpass ourselves, perfect ourselves and exceed our competitors to be a shining star in the line of
+                rubbers.
+            </p>
+        </div>
+</div>
 </body>
 </html>
