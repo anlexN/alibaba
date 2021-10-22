@@ -60,4 +60,52 @@ PS：投放过程中，当您自己制作的创意审核通过后，可随时在
 7. Kinds—kinds of
 
 
-> 尽量尽量尽量多设置“相关的实力优品”,尽量尽量尽量多设置品，把50个额度用完；
+>
+border-bottom__background-color-black__logo-130-92-square__title-black-company__certificate-chips-NSF-SGS-TZW-UL-WRAS__button-black-white-outlined-VISIT-STORE__product-IMG_7072
+border-bottom__background-color-black__logo-130-92-square__title-black-company__certificate-chips-NSF-SGS-TZW-UL-WRAS__button-black-white-raised-VISIT-STORE__product-IMG_7072
+border-bottom__background-color-black__logo-130-92-square__title-black-company__certificate-chips-NSF-SGS-TZW-UL-WRAS__button-black-white-shaped-VISIT-STORE__product-IMG_7072
+border-bottom__background-color-black__logo-130-92-square__title-black-company__certificate-chips-NSF-SGS-TZW-UL-WRAS__button-black-white-text-VISIT-STORE__product-IMG_7072
+border-bottom__background-color-black__logo-130-92-square__title-black-company__certificate-chips-NSF-SGS-TZW-UL-WRAS__button-black-white-unelevated-VISIT-STORE__product-IMG_7072
+
+surface-50-red__border-bottom__background-color-black__logo-130-92-square__title-#29302e-company__certificate-chips-NSF-SGS-TZW-UL-WRAS__button-800-red-outlined-VISIT-STORE__product-IMG_7072
+surface-50-red__border-bottom__background-color-black__logo-130-92-square__title-#29302e-company__certificate-chips-NSF-SGS-TZW-UL-WRAS__button-800-red-raised-VISIT-STORE__product-IMG_7072
+surface-50-red__border-bottom__background-color-black__logo-130-92-square__title-#29302e-company__certificate-chips-NSF-SGS-TZW-UL-WRAS__button-800-red-shaped-VISIT-STORE__product-IMG_7072
+surface-50-red__border-bottom__background-color-black__logo-130-92-square__title-#29302e-company__certificate-chips-NSF-SGS-TZW-UL-WRAS__button-800-red-text-VISIT-STORE__product-IMG_7072
+surface-50-red__border-bottom__background-color-black__logo-130-92-square__title-#29302e-company__certificate-chips-NSF-SGS-TZW-UL-WRAS__button-800-red-unelevated-VISIT-STORE__product-IMG_7072
+
+surface-50-red__border-bottom__background-color-black__logo-130-92-square__title-#29302e-company__certificate-chips-NSF-SGS-TZW-UL-WRAS__button-800-pink-outlined-VISIT-STORE__product-IMG_7072
+surface-50-red__border-bottom__background-color-black__logo-130-92-square__title-#29302e-company__certificate-chips-NSF-SGS-TZW-UL-WRAS__button-800-pink-raised-VISIT-STORE__product-IMG_7072
+surface-50-red__border-bottom__background-color-black__logo-130-92-square__title-#29302e-company__certificate-chips-NSF-SGS-TZW-UL-WRAS__button-800-pink-shaped-VISIT-STORE__product-IMG_7072
+surface-50-red__border-bottom__background-color-black__logo-130-92-square__title-#29302e-company__certificate-chips-NSF-SGS-TZW-UL-WRAS__button-800-pink-text-VISIT-STORE__product-IMG_7072
+surface-50-red__border-bottom__background-color-black__logo-130-92-square__title-#29302e-company__certificate-chips-NSF-SGS-TZW-UL-WRAS__button-800-pink-unelevated-VISIT-STORE__product-IMG_7072
+
+surface-50-red__border-bottom__background-color-black__logo-130-92-square__title-#29302e-company__certificate-chips-NSF-SGS-TZW-UL-WRAS__button-800-purple-outlined-VISIT-STORE__product-IMG_7072
+surface-50-red__border-bottom__background-color-black__logo-130-92-square__title-#29302e-company__certificate-chips-NSF-SGS-TZW-UL-WRAS__button-800-purple-raised-VISIT-STORE__product-IMG_7072
+surface-50-red__border-bottom__background-color-black__logo-130-92-square__title-#29302e-company__certificate-chips-NSF-SGS-TZW-UL-WRAS__button-800-purple-shaped-VISIT-STORE__product-IMG_7072
+surface-50-red__border-bottom__background-color-black__logo-130-92-square__title-#29302e-company__certificate-chips-NSF-SGS-TZW-UL-WRAS__button-800-purple-text-VISIT-STORE__product-IMG_7072
+surface-50-red__border-bottom__background-color-black__logo-130-92-square__title-#29302e-company__certificate-chips-NSF-SGS-TZW-UL-WRAS__button-800-purple-unelevated-VISIT-STORE__product-IMG_7072
+
+surface-50-red__border-bottom__background-color-black__logo-130-92-square__title-#29302e-company__certificate-chips-NSF-SGS-TZW-UL-WRAS__button-800-deep-purple-outlined-VISIT-STORE__product-IMG_7072
+surface-50-red__border-bottom__background-color-black__logo-130-92-square__title-#29302e-company__certificate-chips-NSF-SGS-TZW-UL-WRAS__button-800-deep-purple-raised-VISIT-STORE__product-IMG_7072
+surface-50-red__border-bottom__background-color-black__logo-130-92-square__title-#29302e-company__certificate-chips-NSF-SGS-TZW-UL-WRAS__button-800-deep-purple-shaped-VISIT-STORE__product-IMG_7072
+surface-50-red__border-bottom__background-color-black__logo-130-92-square__title-#29302e-company__certificate-chips-NSF-SGS-TZW-UL-WRAS__button-800-deep-purple-text-VISIT-STORE__product-IMG_7072
+surface-50-red__border-bottom__background-color-black__logo-130-92-square__title-#29302e-company__certificate-chips-NSF-SGS-TZW-UL-WRAS__button-800-deep-purple-unelevated-VISIT-STORE__product-IMG_7072
+
+surface-50-red__border-bottom__background-color-black__logo-130-92-square__title-#29302e-company__certificate-chips-NSF-SGS-TZW-UL-WRAS__button-800-indigo-outlined-VISIT-STORE__product-IMG_7072
+surface-50-red__border-bottom__background-color-black__logo-130-92-square__title-#29302e-company__certificate-chips-NSF-SGS-TZW-UL-WRAS__button-800-indigo-raised-VISIT-STORE__product-IMG_7072
+surface-50-red__border-bottom__background-color-black__logo-130-92-square__title-#29302e-company__certificate-chips-NSF-SGS-TZW-UL-WRAS__button-800-indigo-shaped-VISIT-STORE__product-IMG_7072
+surface-50-red__border-bottom__background-color-black__logo-130-92-square__title-#29302e-company__certificate-chips-NSF-SGS-TZW-UL-WRAS__button-800-indigo-text-VISIT-STORE__product-IMG_7072
+surface-50-red__border-bottom__background-color-black__logo-130-92-square__title-#29302e-company__certificate-chips-NSF-SGS-TZW-UL-WRAS__button-800-indigo-unelevated-VISIT-STORE__product-IMG_7072
+
+surface-50-red__border-bottom__background-color-black__logo-130-92-square__title-#29302e-company__certificate-chips-NSF-SGS-TZW-UL-WRAS__button-800-blue-outlined-VISIT-STORE__product-IMG_7072
+surface-50-red__border-bottom__background-color-black__logo-130-92-square__title-#29302e-company__certificate-chips-NSF-SGS-TZW-UL-WRAS__button-800-blue-raised-VISIT-STORE__product-IMG_7072
+surface-50-red__border-bottom__background-color-black__logo-130-92-square__title-#29302e-company__certificate-chips-NSF-SGS-TZW-UL-WRAS__button-800-blue-shaped-VISIT-STORE__product-IMG_7072
+surface-50-red__border-bottom__background-color-black__logo-130-92-square__title-#29302e-company__certificate-chips-NSF-SGS-TZW-UL-WRAS__button-800-blue-text-VISIT-STORE__product-IMG_7072
+surface-50-red__border-bottom__background-color-black__logo-130-92-square__title-#29302e-company__certificate-chips-NSF-SGS-TZW-UL-WRAS__button-800-blue-unelevated-VISIT-STORE__product-IMG_7072
+
+surface-50-red__border-bottom__background-color-black__logo-130-92-square__title-#29302e-company__certificate-chips-NSF-SGS-TZW-UL-WRAS__button-800-light-blue-outlined-VISIT-STORE__product-IMG_7072
+surface-50-red__border-bottom__background-color-black__logo-130-92-square__title-#29302e-company__certificate-chips-NSF-SGS-TZW-UL-WRAS__button-800-light-blue-raised-VISIT-STORE__product-IMG_7072
+surface-50-red__border-bottom__background-color-black__logo-130-92-square__title-#29302e-company__certificate-chips-NSF-SGS-TZW-UL-WRAS__button-800-light-blue-shaped-VISIT-STORE__product-IMG_7072
+surface-50-red__border-bottom__background-color-black__logo-130-92-square__title-#29302e-company__certificate-chips-NSF-SGS-TZW-UL-WRAS__button-800-light-blue-text-VISIT-STORE__product-IMG_7072
+surface-50-red__border-bottom__background-color-black__logo-130-92-square__title-#29302e-company__certificate-chips-NSF-SGS-TZW-UL-WRAS__button-800-light-blue-unelevated-VISIT-STORE__product-IMG_7072
+> 
